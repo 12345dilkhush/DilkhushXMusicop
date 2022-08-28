@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv(","14408588"))
+API_HASH = getenv(","e4e340ca8f1c6a1c2c302d5d34cbfe72)
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("5416582457:AAG_3d4u0XZakf_f-0z9Goukd9j-QiDw8Gs")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv(","mongodb+srv://Dilwar:<password>@cluster0.ugj3r.mongodb.net/?retryWrites=true&w=majority",)
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001682834821"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝑨𝑳𝑶𝑵𝑬 𝑿 𝑴𝑼𝑺𝑰𝑪​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐃𝐢𝐥𝐤𝐡𝐮𝐬𝐡 𝐗 𝐌𝐮𝐬𝐢𝐜")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5430631875").split())
+    map(int, getenv("OWNER_ID", "5350202392").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -40,12 +40,12 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv(","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")
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ALONE_CHATTING_WORLD")
+    "SUPPORT_CHANNEL", "https://t.me/The_Friendship_Haveli")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ALONE_CHATTING_WORLD")
+    "SUPPORT_GROUP", "https://t.me/The_Friendship_Haveli")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/file/f84d28d91512a445ecce1.mp4")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/file/f690021836689035f37ed.jpg")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -85,11 +85,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("STRING_SESSION", BQA5nZ3qgXholRlSqEwr7fwdekhGB2Nu2Xj2tLSS2_r-eiSCVCIO1KkQI9i7EOZgSE6tAPU5GqC-Xq2_ZJaddNmIHtFu4NZtjEt92kWHaqJPy_qES5hQCInTdN6hPcT_ZagqdecdKTNXgmTQ0e7yahCTlhwjG32BKMrSlkpwpqMFoCfY9vAjjzy7a0Q-9HvaRDmS6MUuv7F0Ysz8tlHy0vWTqCBv2xTSMStQzBCoB8P0UBnQoPtaF5rRyuISEtDxztztX4_p1OowcvczcVpVXbgYrb4xBH730rZ-qdlk6sVELUxPO1v9-PMZ0SbZDiZ67gi_YjN5K5fXUQ-hMyzCNTVWAAAAAS47opkA)
+STRING2 = getenv("STRING_SESSION2", BQA5nZ3qgXholRlSqEwr7fwdekhGB2Nu2Xj2tLSS2_r-eiSCVCIO1KkQI9i7EOZgSE6tAPU5GqC-Xq2_ZJaddNmIHtFu4NZtjEt92kWHaqJPy_qES5hQCInTdN6hPcT_ZagqdecdKTNXgmTQ0e7yahCTlhwjG32BKMrSlkpwpqMFoCfY9vAjjzy7a0Q-9HvaRDmS6MUuv7F0Ysz8tlHy0vWTqCBv2xTSMStQzBCoB8P0UBnQoPtaF5rRyuISEtDxztztX4_p1OowcvczcVpVXbgYrb4xBH730rZ-qdlk6sVELUxPO1v9-PMZ0SbZDiZ67gi_YjN5K5fXUQ-hMyzCNTVWAAAAAS47opkA)
+STRING3 = getenv("STRING_SESSION3", BQA5nZ3qgXholRlSqEwr7fwdekhGB2Nu2Xj2tLSS2_r-eiSCVCIO1KkQI9i7EOZgSE6tAPU5GqC-Xq2_ZJaddNmIHtFu4NZtjEt92kWHaqJPy_qES5hQCInTdN6hPcT_ZagqdecdKTNXgmTQ0e7yahCTlhwjG32BKMrSlkpwpqMFoCfY9vAjjzy7a0Q-9HvaRDmS6MUuv7F0Ysz8tlHy0vWTqCBv2xTSMStQzBCoB8P0UBnQoPtaF5rRyuISEtDxztztX4_p1OowcvczcVpVXbgYrb4xBH730rZ-qdlk6sVELUxPO1v9-PMZ0SbZDiZ67gi_YjN5K5fXUQ-hMyzCNTVWAAAAAS47opkA)
+STRING4 = getenv("STRING_SESSION4", BQA5nZ3qgXholRlSqEwr7fwdekhGB2Nu2Xj2tLSS2_r-eiSCVCIO1KkQI9i7EOZgSE6tAPU5GqC-Xq2_ZJaddNmIHtFu4NZtjEt92kWHaqJPy_qES5hQCInTdN6hPcT_ZagqdecdKTNXgmTQ0e7yahCTlhwjG32BKMrSlkpwpqMFoCfY9vAjjzy7a0Q-9HvaRDmS6MUuv7F0Ysz8tlHy0vWTqCBv2xTSMStQzBCoB8P0UBnQoPtaF5rRyuISEtDxztztX4_p1OowcvczcVpVXbgYrb4xBH730rZ-qdlk6sVELUxPO1v9-PMZ0SbZDiZ67gi_YjN5K5fXUQ-hMyzCNTVWAAAAAS47opkA)
+STRING5 = getenv("STRING_SESSION5", BQA5nZ3qgXholRlSqEwr7fwdekhGB2Nu2Xj2tLSS2_r-eiSCVCIO1KkQI9i7EOZgSE6tAPU5GqC-Xq2_ZJaddNmIHtFu4NZtjEt92kWHaqJPy_qES5hQCInTdN6hPcT_ZagqdecdKTNXgmTQ0e7yahCTlhwjG32BKMrSlkpwpqMFoCfY9vAjjzy7a0Q-9HvaRDmS6MUuv7F0Ysz8tlHy0vWTqCBv2xTSMStQzBCoB8P0UBnQoPtaF5rRyuISEtDxztztX4_p1OowcvczcVpVXbgYrb4xBH730rZ-qdlk6sVELUxPO1v9-PMZ0SbZDiZ67gi_YjN5K5fXUQ-hMyzCNTVWAAAAAS47opkA)
 
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
